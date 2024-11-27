@@ -1453,6 +1453,10 @@ scroll-margin-top: 80px;
 {
 position: relative;
 }
+.portfolio .tab-title h4 a
+{
+  font-size:25px;
+}
 .tab {
   cursor: pointer;
   padding: 10px 20px;
