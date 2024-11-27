@@ -635,7 +635,7 @@ header.sticky {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-color: rgba(255, 255, 255, 0.05);
-    z-index: 9;
+    z-index: 99;
   }
   
   header.sticky + .banner-section  {
@@ -863,13 +863,13 @@ span.sub-title {
     position: relative;
     padding: 30px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 500px;
+    border-radius: 20px;
 }
 .about-img img {
-    border-radius: 500px;
-    height: 600px;
-    overflow: hidden;
-    object-fit: cover;
+  border-radius: 18px;
+  height: 560px;
+  overflow: hidden;
+  object-fit: cover;
 }
 .about-main {
   padding-left: 60px;
@@ -1449,6 +1449,10 @@ scroll-margin-top: 80px;
 
 
 /* -----------------------Portfolio tab--------------------------------------- */
+.portfolio
+{
+position: relative;
+}
 .tab {
   cursor: pointer;
   padding: 10px 20px;
@@ -1653,7 +1657,7 @@ position: relative;
   background: rgb(2 23 55 / 25%);
 }
 /* ----------------video section--------------------- */
-section.Video-sec::before {
+/* section.Video-sec::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -1666,7 +1670,7 @@ section.Video-sec::before {
   background-image: linear-gradient(rgba(21, 45, 64, 0.372), #04194a8f) !important;
   opacity: 1 !important;
   background-color: transparent !important;
-}
+} */
 section.Video-sec {
   position: relative;
   
@@ -1930,4 +1934,13 @@ form#contact-form {
     padding-left: 30px !important;
     padding-right: 30px !important;
 }
+}
+
+.section3Left ul {
+  padding-left: 0;
+}
+.section3Left li{
+  font-size: 18px;
+  line-height: 40px;
+  list-style-type: none;
 }

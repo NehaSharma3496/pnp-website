@@ -35,7 +35,7 @@ Let's contact
 </button>
   <div className="container-fluid px-0 margin-mob">
     <a className="navbar-brand" href="#">
-     <img src='./assets/img/pnp-logo.png' />
+     <img src='./assets/img/logo.png'/>
     </a>
 
     <div className="nav-item d-flex align-items-center">

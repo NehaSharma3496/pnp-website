@@ -3,7 +3,7 @@ import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 const Contact = () => {
   return (
-    <section className='contact-section'>
+    <section className='contact-section' id='contact'>
         <div className='container'>
         <div className="row ">
           <div className="col-md-12">

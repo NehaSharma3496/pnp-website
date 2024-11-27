@@ -7,6 +7,7 @@ const OurTeam = () => {
 
   return (
     <section className="Ourteam pt-80 pb-80">
+ 
       <div className="container caption">
         <div className="row ">
           <div className="col-md-12">
@@ -79,6 +80,19 @@ const OurTeam = () => {
                     <div className="overlay-sim-text-2 overlay-xs-1"></div>
                   </div>
                 </div>
+                <div className="team-img ">
+                  <div className=" effect-image-1">
+                    <img
+                      src="./assets/img/Team/Deepti-mam.JPG"
+                      className="w-100"
+                    />
+                    <div className="simple-text">
+                      <p className="leader_Name">Deepti Patel</p>
+                      <p className="leader_position">Human Resource Executive</p>
+                    </div>
+                    <div className="overlay-sim-text-2 overlay-xs-1"></div>
+                  </div>
+                </div>
               </div>
               <div className="col-md-6">
               <div className="team-img  mt-190">
@@ -121,6 +135,21 @@ const OurTeam = () => {
                     <div className="overlay-sim-text-2 overlay-xs-1"></div>
                   </div>
                 </div>
+                <div className="team-img ">
+                  <div className=" effect-image-1">
+                    <img
+                      src="./assets/img/Team/sonali-mam.JPEG"
+                      className="w-100"
+                    />
+                    <div className="simple-text">
+                      <p className="leader_Name">Sonali Sahu</p>
+                      <p className="leader_position">Manager (Digital Marketing Team)</p>
+                    </div>
+                    <div className="overlay-sim-text-2 overlay-xs-1"></div>
+                  </div>
+                </div>
+           
+                
               </div>
             </div>
           </div>
